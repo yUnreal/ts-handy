@@ -3,3 +3,4 @@ export { At } from './At';
 export { Concat } from './Concat';
 export { Length } from './Length';
 export { Reverse } from './Reverse';
+export { Join } from './Join';
