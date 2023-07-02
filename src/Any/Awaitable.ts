@@ -8,8 +8,11 @@
  * async function bar(foo: Awaitable<string>): Promise<void> {
  *   const result: Any.Await<typeof foo> = await foo;
  * 
- *   console.log(result);
+ *   console.log(result); // string
  * }
+ * 
+ * bar('foo');
+ * bar(new Promise<string>((res): void => res('foo')));
  */
 
 export type Awaitable<P> = PromiseLike<P> | P;
