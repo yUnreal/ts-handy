@@ -18,7 +18,7 @@
  * const writableBar: Writable<Person, 'age'> = { name: 'ts-handy', age: 0 };
  * 
  * writableBar.age = 1; // Ok
- * writableBar.name = 'toolset-ts'; // Error
+ * writableBar.name = 'handy-ts'; // Error
  */
 
 export type Writable<T, K extends keyof T> = Omit<T, K> & {

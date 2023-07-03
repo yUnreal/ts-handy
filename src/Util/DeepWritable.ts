@@ -21,9 +21,9 @@
  * 
  * const foo: Util.DeepWritable<Person, 'name' | 'options'> = { name: 'ts-handy', age: 0, options: { money: 0 } };
  * 
+ * foo.age = 3; // Error
  * foo.options.money = 1; // Ok
- * foo.options.name = 'toolset-ts'; // Ok
- * foo.options.age = 3; // Error
+ * foo.options.name = 'handy-ts'; // Ok
  * 
  * const foobar: Util.DeepWritable<Person> = { name: 'ts-handy', ... }; // Turn writable all keys
  */

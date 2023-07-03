@@ -26,10 +26,10 @@
  * 
  * const foo: Util.DeepReadonly<Person> = { ..., otherOptions: { deep: { realMoney: 1n } } };
  * 
- * foo.name = 'toolset-ts'; // Error
+ * foo.name = 'handy-ts'; // Error
  * foo.otherOptions.deep.realMoney = 2n; // Error
  * 
- * const foobar: Util.DeepReadonly<Person, 'options'> = { name: 'ts-handy', age: 0, options: { money: 0 }, otherOptions: { ... } };
+ * const foobar: Util.DeepReadonly<Person, 'otherOptions'> = { name: 'ts-handy', age: 0, options: { money: 0 }, otherOptions: { ... } };
  * 
  * foobar.options.money = 10; // Ok
  * foobar.otherOptions.deep.realMoney = 10n; // Error
