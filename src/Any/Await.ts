@@ -3,7 +3,7 @@
  * @param {unknown} P - Some promise
  * @memberof Any
  * @example
- * import { Any } from 'ts-toolset';
+ * import { Any } from 'ts-handy';
  * 
  * const promise: Promise<number> = new Promise<number>((res) => res(0));
  * 

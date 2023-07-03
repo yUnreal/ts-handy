@@ -6,7 +6,7 @@ import { Split } from './Split';
  * @param {number} I - The index to get the character
  * @memberof string
  * @example
- * import { String } from 'ts-toolset';
+ * import { String } from 'ts-handy';
  * 
  * type H = At<'Hello, world!', 0>; // 'h'
  */

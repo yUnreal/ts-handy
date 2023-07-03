@@ -3,7 +3,7 @@
  * @param {unknown} P - The value
  * @memberof Any
  * @example
- * import { Any } from 'ts-toolset';
+ * import { Any } from 'ts-handy';
  * 
  * async function bar(foo: Awaitable<string>): Promise<void> {
  *   const result: Any.Await<typeof foo> = await foo;

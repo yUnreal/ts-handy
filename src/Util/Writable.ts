@@ -4,18 +4,18 @@
  * @param {K} K - Keys to turn writable
  * @memberof Util
  * @example
- * import { Util } from 'ts-toolset';
+ * import { Util } from 'ts-handy';
  * 
  * interface Person {
  *  readonly name: string;
  *  readonly age: number;
  * }
  * 
- * const readonlyBar: Person = { name: 'ts-toolset', age: 0 };
+ * const readonlyBar: Person = { name: 'ts-handy', age: 0 };
  * 
  * readonlyBar.age = 1; // Error
  * 
- * const writableBar: Writable<Person, 'age'> = { name: 'ts-toolset', age: 0 };
+ * const writableBar: Writable<Person, 'age'> = { name: 'ts-handy', age: 0 };
  * 
  * writableBar.age = 1; // Ok
  * writableBar.name = 'toolset-ts'; // Error

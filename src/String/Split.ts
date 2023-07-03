@@ -4,7 +4,7 @@
  * @param {string} D - The divisor to split
  * @memberof string
  * @example
- * import { String } from 'ts-toolset';
+ * import { String } from 'ts-handy';
  * 
  * type HelloWorld = String.Split<'Hello world!', ' '>; // ['Hello', 'world!']
  */

@@ -5,7 +5,7 @@ import { EmptyObject } from './EmptyObject';
  * @param {unknown} T - The value
  * @memberof Util
  * @example
- * import { Util } from 'ts-toolset';
+ * import { Util } from 'ts-handy';
  * 
  * type NonEmptyObject = 0;
  * 
