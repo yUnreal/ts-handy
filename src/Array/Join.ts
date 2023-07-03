@@ -7,7 +7,7 @@ import { Literal } from './_lib';
  * @param {string} S - The separator
  * @memberof Array
  * @example
- * import { Array } from 'ts-toolset';
+ * import { Array } from 'ts-handy';
  * 
  * type HW = ['Hello', 'world!'];
  * type HelloWorld = Array.join<HW, ' '>; // 'Hello world!'
