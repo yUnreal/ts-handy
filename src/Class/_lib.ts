@@ -1,0 +1,1 @@
+export type AbstractConstructor<T, Args extends unknown[] = unknown[]> = abstract new(...args: Args) => T;
