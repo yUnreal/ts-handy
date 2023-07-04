@@ -55,6 +55,12 @@ import { Array, String, ... } from 'ts-handy';
 import th from 'ts-handy';
 ```
 
+- Never do:
+
+```ts
+import * as th from 'ts-handy';
+```
+
 ### Types
 
 | Any | Array |
@@ -65,4 +71,4 @@ import th from 'ts-handy';
 
 If you found any type errors, please consider submitting a pull request.
 
-Want to contribute? Submit a pull request
+Want to contribute? Submit a pull request.
