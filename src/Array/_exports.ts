@@ -4,3 +4,4 @@ export { Concat } from './Concat';
 export { Reverse } from './Reverse';
 export { Join } from './Join';
 export { TypedArray } from './TypedArray';
+export { Push } from './Push';
