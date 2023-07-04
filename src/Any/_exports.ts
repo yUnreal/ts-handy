@@ -5,3 +5,4 @@ export { Equals } from './Equals';
 export { If } from './If';
 export { Indexable } from './Indexable';
 export { Try } from './Try';
+export { Primitive } from './Primitive';
