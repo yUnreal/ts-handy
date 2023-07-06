@@ -1,7 +1,7 @@
 {
   "name": "ts-handy",
-  "version": "0.0.5",
-  "description": "Utility package for types",
+  "version": "0.0.6",
+  "description": "TypeScript utility type library",
   "main": "index.ts",
   "scripts": {
     "dev": "tsx index.ts",
