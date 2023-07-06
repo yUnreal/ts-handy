@@ -2,9 +2,9 @@
  * Turn the keys `K` writable on `T`
  * @param {unknown} T - The value
  * @param {K} K - Keys to turn writable
- * @memberof Util
+ * @memberof Any
  * @example
- * import { Util } from 'ts-handy';
+ * import { Any } from 'ts-handy';
  * 
  * interface Person {
  *  readonly name: string;

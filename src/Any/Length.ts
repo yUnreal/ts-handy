@@ -1,17 +1,17 @@
 /**
  * Get the length or size from a value
  * @param {A} A - The value
- * @memberof Util
+ * @memberof Any
  * @example
- * import { Util } from 'ts-handy';
+ * import { Any } from 'ts-handy';
  * 
  * type HWArray = ['Hello', 'World'];
  * 
- * type HWLength = Util.Length<HWArray>;
+ * type HWLength = Any.Length<HWArray>;
  * 
  * const HWMap: Map<string, string> = new Map<string, string>().set('Hello', 'World');
  * 
- * type HWSize = Util.Length<typeof HWMap>;
+ * type HWSize = Any.Length<typeof HWMap>;
  */
 
 export type Length<A> = A extends { length: number; } ? A['length'] : A extends { size: number; } ? A['size'] : undefined;

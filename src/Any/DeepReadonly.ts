@@ -2,10 +2,10 @@
  * Turn keys `K` recursively read-only on `T`
  * @param {T} T - The value
  * @param {K} K - Keys to turn readonly
- * @memberof Util
+ * @memberof Any
  * @see Readonly
  * @example
- * import { Util } from 'ts-handy';
+ * import { Any } from 'ts-handy';
  * 
  * interface Person {
  *  name: string;
@@ -24,12 +24,12 @@
  * 
  * bar.options.money = 10; // Ok
  * 
- * const foo: Util.DeepReadonly<Person> = { ..., otherOptions: { deep: { realMoney: 1n } } };
+ * const foo: Any.DeepReadonly<Person> = { ..., otherOptions: { deep: { realMoney: 1n } } };
  * 
  * foo.name = 'handy-ts'; // Error
  * foo.otherOptions.deep.realMoney = 2n; // Error
  * 
- * const foobar: Util.DeepReadonly<Person, 'otherOptions'> = { name: 'ts-handy', age: 0, options: { money: 0 }, otherOptions: { ... } };
+ * const foobar: Any.DeepReadonly<Person, 'otherOptions'> = { name: 'ts-handy', age: 0, options: { money: 0 }, otherOptions: { ... } };
  * 
  * foobar.options.money = 10; // Ok
  * foobar.otherOptions.deep.realMoney = 10n; // Error

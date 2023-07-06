@@ -3,12 +3,12 @@ import { IsAny } from './IsAny';
 /**
  * Check whether `T` is not any type.
  * @param {T} - The type to check out.
- * @memberof Util
+ * @memberof Any
  * @example
- * import { Util } from 'ts-handy';
+ * import { Any } from 'ts-handy';
  * 
- * type T1 = Util.IsNotAny<Readonly<any>>; // true
- * type T2 = Util.IsNotAny<any>; // false
+ * type T1 = Any.IsNotAny<Readonly<any>>; // true
+ * type T2 = Any.IsNotAny<any>; // false
  */
 
 export type IsNotAny<T> = IsAny<T> extends true ? false : true;
