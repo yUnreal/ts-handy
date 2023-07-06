@@ -14,7 +14,7 @@ All types have an example embedded in the `@example` tag, use them.
 
 ```ts
 // Importing Array & String types
-import { Util } from 'ts-handy';
+import { Any } from 'ts-handy';
 
 interface Person {
     name: string;
@@ -24,10 +24,10 @@ interface Person {
 }
 
 // Now all keys are read-only
-type Readable = Util.DeepReadonly<Person>;
+type Readable = Any.DeepReadonly<Person>;
 
 // Now all keys are writable
-type Writable = Util.DeepWritable<Readable>;
+type Writable = Any.DeepWritable<Readable>;
 ```
 
 ### [Docs](src/docs)
