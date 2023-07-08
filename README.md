@@ -13,7 +13,7 @@ npm i ts-handy
 All types have an example embedded in the `@example` tag, use them.
 
 ```ts
-// Importing Array & String types
+// Import Any/Util
 import { Any } from 'ts-handy';
 
 interface Person {
@@ -63,9 +63,10 @@ import * as th from 'ts-handy';
 
 ### Types
 
-| Any | Array |
-|-----|-------|
-| String  | Util  |
+| Any | Array | Class |
+|-----|-------|-------|
+| Boolean  | String | Function  |
+| String
 
 ## Good practices
 
