@@ -1,8 +1,8 @@
 import { Class } from './Class';
 
 /**
- * Get the prototype of a class
- * @param {C} C - The class
+ * Get the prototype of a class.
+ * @param {C} C - The class.
  * @memberof Class
  */
 

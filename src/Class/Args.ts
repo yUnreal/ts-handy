@@ -1,8 +1,8 @@
 import { Class } from './Class';
 
 /**
- * Get the arguments from a class
- * @param {C} C - The class
+ * Get the arguments from a class.
+ * @param {C} C - The class.
  * @memberof Class
  * @example
  * import { Class } from 'ts-handy';

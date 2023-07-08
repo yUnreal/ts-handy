@@ -1,7 +1,7 @@
 /**
- * Split `S` into `D` and returns an Array\<string>
- * @param {string} S - The string to split
- * @param {string} D - The divisor to split
+ * Split `S` into `D` and returns an Array\<string>.
+ * @param {string} S - The string to split.
+ * @param {string} D - The divisor to split.
  * @memberof string
  * @example
  * import { String } from 'ts-handy';

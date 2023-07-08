@@ -1,8 +1,8 @@
 import { EmptyObject } from './EmptyObject';
 
 /**
- * Returns a `boolean` whetever the `T` is strictly empty object `{}`
- * @param {unknown} T - The value
+ * Returns a `boolean` whetever the `T` is strictly empty object `{}`.
+ * @param {unknown} T - Value to check.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

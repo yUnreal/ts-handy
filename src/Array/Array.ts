@@ -1,5 +1,5 @@
 /**
- * Base for Array types
+ * Base for Array types.
  * @memberof Array
  * @example
  * import { Array } from 'ts-handy';

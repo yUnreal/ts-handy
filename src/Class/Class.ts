@@ -1,7 +1,7 @@
 /**
- * Create or describe a `class`
- * @param {T} T - Class prototype
- * @param {Arguments} Arguments - Class arguments
+ * Create or describe a `class`.
+ * @param {T} T - Class prototype.
+ * @param {Arguments} Arguments - Class arguments.
  * @memberof Class
  * @example
  * import { Class } from 'ts-handy';

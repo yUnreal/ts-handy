@@ -1,7 +1,7 @@
 /**
- * Turn the keys `K` deep writable on `T`
- * @param {unknown} T - The value
- * @param {K} K - Keys to turn writable
+ * Turn the keys `K` deep writable on `T`.
+ * @param {unknown} T - Value to turn deep writable.
+ * @param {K} K - Keys to turn writable.
  * @memberof Any
  * @see Writable
  * @example

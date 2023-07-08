@@ -1,8 +1,8 @@
 import { Array } from './Array';
 
 /**
- * Reverse an Array
- * @param {T} T - The array
+ * Reverse an Array.
+ * @param {T} T - The array.
  * @memberof Array
  * @example
  * import { Array } from 'ts-handy';

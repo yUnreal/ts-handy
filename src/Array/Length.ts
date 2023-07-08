@@ -1,7 +1,7 @@
 import { Array } from './Array';
 
 /**
- * Get the length of `A`
+ * Get the length of `A`.
  * @param {A} A - The Array.
  * @memberof Array
  * @example

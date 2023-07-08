@@ -1,5 +1,5 @@
 /**
- * Type that represents an indexable value
+ * Type that represents an indexable value.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

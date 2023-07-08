@@ -1,5 +1,5 @@
 /**
- * Represents a strictly empty object `{}`
+ * Represents a strictly empty object `{}`.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

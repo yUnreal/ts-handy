@@ -1,9 +1,9 @@
 import { Split } from './Split';
 
 /**
- * Get the character from index `I`
- * @param {string} S - The target string
- * @param {number} I - The index to get the character
+ * Get the character from index `I`.
+ * @param {string} S - String to get the character.
+ * @param {number} I - Target index.
  * @memberof string
  * @example
  * import { String } from 'ts-handy';

@@ -1,9 +1,9 @@
 import { Array } from './Array';
 
 /**
- * Concat two arrays
- * @param {A} A - The first array
- * @param {A1} A1 - The second array
+ * Concat two arrays.
+ * @param {A} A - First array.
+ * @param {A1} A1 - Second array.
  * @memberof Array
  * @example
  * import { Array } from 'ts-handy';

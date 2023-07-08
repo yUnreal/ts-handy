@@ -1,6 +1,6 @@
 /**
- * Await for a Promise
- * @param {unknown} P - Some promise
+ * Await for a Promise.
+ * @param {unknown} P - Promise to await.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

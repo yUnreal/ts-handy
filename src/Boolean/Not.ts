@@ -1,6 +1,5 @@
 /**
  * Represents logical `!` operator.
- * 
  * @param {B} B - The boolean value.
  * @memberof Boolean
  * @example

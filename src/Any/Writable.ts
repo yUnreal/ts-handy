@@ -1,7 +1,7 @@
 /**
- * Turn the keys `K` writable on `T`
- * @param {unknown} T - The value
- * @param {K} K - Keys to turn writable
+ * Turn the keys `K` writable on `T`.
+ * @param {T} T - Value to turn writable.
+ * @param {K} K - Keys to turn writable.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

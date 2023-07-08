@@ -1,7 +1,7 @@
 /**
- * Check whether `T` is equals to `U`
- * @param {T} T - First value
- * @param {U} U - Second value
+ * Check whether `T` is equals to `U`.
+ * @param {T} T - First value.
+ * @param {U} U - Second value.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

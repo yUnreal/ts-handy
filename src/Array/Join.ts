@@ -2,9 +2,9 @@ import { Array } from './Array';
 import { Literal } from './_lib';
 
 /**
- * Join an Array into a string
- * @param {Array<unknown>} S - The array to join
- * @param {string} S - The separator
+ * Join an Array into a string.
+ * @param {Array<unknown>} S - The array to join.
+ * @param {string} S - The separator.
  * @memberof Array
  * @example
  * import { Array } from 'ts-handy';

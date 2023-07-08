@@ -1,6 +1,6 @@
 /**
- * Get the length or size from a value
- * @param {A} A - The value
+ * Get the length/size from `A`.
+ * @param {A} A - Value to get the length.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

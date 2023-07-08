@@ -2,7 +2,7 @@
  * Replaces `F` in `S` to `T`.
  * @param {S} S - The string.
  * @param {F} F - Content to replace.
- * @param {T} T - Substitute content
+ * @param {T} T - Substitute content.
  * @memberof string
  * @example
  * import { String } from 'ts-handy';

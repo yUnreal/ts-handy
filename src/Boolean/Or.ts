@@ -2,9 +2,8 @@ import { FalsyValues } from './_lib';
 
 /**
  * Represents the logical OR operation between two boolean types.
- *
- * @param L - The left boolean type.
- * @param R - The right boolean type.
+ * @param {L} L - The left boolean type.
+ * @param {R} R - The right boolean type.
  * @memberof Boolean
  * @example
  * import { Boolean } from 'ts-handy';

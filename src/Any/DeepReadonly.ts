@@ -1,7 +1,7 @@
 /**
- * Turn keys `K` recursively read-only on `T`
- * @param {T} T - The value
- * @param {K} K - Keys to turn readonly
+ * Turn keys `K` recursively read-only on `T`.
+ * @param {T} T - Value to turn deep readonly.
+ * @param {K} K - Keys to turn readonly.
  * @memberof Any
  * @see Readonly
  * @example

@@ -1,7 +1,7 @@
 /**
- * Check if `A` extends `A 1`, if successful returns `A` if not `A1`
- * @param {A} A - First value
- * @param {A1} A2 - Second value
+ * Check if `A` extends `A1`, if successful returns `A`, otherwise `A1`.
+ * @param {A} A - First value.
+ * @param {A1} A2 - Second value.
  * @memberof Any
  * @example
  * import { Any } from 'ts-handy';

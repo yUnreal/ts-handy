@@ -2,7 +2,6 @@ import { FalsyValues } from './_lib';
 
 /**
  * Represents the logical AND operator between two boolean types.
- * 
  * @param {L} L - The left boolean type.
  * @param {R} R - The right boolean type.
  * @memberof Boolean
